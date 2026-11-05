@@ -1,0 +1,9 @@
+backend/node_modules/
+node_modules/
+.env
+*.db
+dist/
+test-results/
+playwright-report/
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep

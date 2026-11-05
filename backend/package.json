@@ -1,0 +1,17 @@
+{
+  "name": "quicksketch-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.0",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
+  }
+}
